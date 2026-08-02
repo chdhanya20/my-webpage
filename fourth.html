@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>student feedback form</title>
+</head>
+<body>
+    <form action="#" method="post"  target="_blank" >
+        <fieldset>
+            <legend>personal details</legend>
+    <label for="name" >name:<span style='color:red'>*</span></label>
+    <input type="text" placeholder="enter name" id="name" required>
+    <br><br>
+    <label for="email">email:<span style='color:red'>*</span></label>
+    <input type="email" placeholder="enter email" id="email" required>
+    <br><br>
+    <label for="password">password:<span style='color:red'>*</span></label>
+    <input type="password" placeholder="enter password" id="password" required>
+    <br><br>
+    <label for="phone number">Phone number:<span style="color:red">*</span></label>
+    <input type="tel" placeholder="enter phone number" id="phone number" required>
+    <br><br>
+    <label for="age">Age:<span style="color:red">*</span></label>
+    <input type="number" placeholder="enter age" id="age" required>
+    </fieldset>
+    <br><br>
+    <fieldset>
+        <legend>other details</legend>
+    <label for="gender">gender:</label>
+    <label for="101">Male</label>
+    <input type="radio" name="gender" value="male" id="101">
+    <label for="102">Female</label>
+    <input type="radio" name="gender" value="female" id="102">
+    <br><br>
+    <label for="favourite subject">favourite subject:</label>
+    <label for="101">maths</label>
+    <input type="checkbox" name="favourite subject" value="maths" id="101">
+    <label for="102">science</label>
+    <input type="checkbox" name="favourite subject" value="science" id="102">
+    <label for="103">english</label>
+    <input type="checkbox" name="favourite subject" value="english" id="103">
+    <br><br>
+    <label>select city:</label>
+    <select name="city">
+        <option value="hyderabad">hyderabad</option>
+        <option value="mumbai">Mumbai</option>
+        <option value="bangalore">bangalore</option>
+        <option value="chennai">Chennai</option>
+    </select>
+    </fieldset>
+    <br><br>
+    <fieldset>
+        <legend>feedback details</legend>
+    <label for="feedback">Feedback:</label>
+    <textarea name="feedback" placeholder="enter your valuable feedback" rows="5" cols="30">feedback</textarea>
+    <br><br>
+    <label for="range">Rate your experience:</label>
+    <input type="range" name="range" min="0" max="100">
+    <br><br>
+    </fieldset>
+    <button type="submit">Submit</button>
+    
+    <button type="reset">Reset</button>
+
+    <br><br>
+    <button type="button">help center</button>
+    <br><br>
+
+   </form> 
+
+
+
+
+</body>
+</html>
