@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>combinator selectors</title>
+    <style>
+        div p{
+            color: red;
+        }
+
+        div>p{
+            color: blue;
+        }
+
+        div~p{
+            color: yellow;
+        }
+
+
+        div+p{
+            color: green;
+        }
+       
+        
+    </style>
+</head>
+<body>
+<div>
+    <p>My name is dhanya</p>
+    <span>
+    <p>I am BE graduate</p>
+    </span>
+    <p>My hobbies are listening music and watching movies</p>
+</div>
+    <p>I have joined pentagon space for java full stack course</p>
+    <p>pentagon space is great learning platform for freshers</p>
+</body>
+</html>
